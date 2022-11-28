@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:gravity="center_vertical"
+    android:paddingStart="5dp"
+    android:paddingTop="10dp"
+    android:paddingEnd="5dp"
+    android:paddingBottom="10dp">
+
+
+    <Button
+        android:id="@+id/components_buttons"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/black"
+        android:onClick="components_click"
+        android:text="Железо"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/black"
+        android:onClick="build_onclick"
+        android:text="Сборка ПК"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:onClick="programm_onclick"
+        android:layout_weight="1"
+        android:backgroundTint="@color/black"
+
+        android:text="ПО"
+        android:textColor="@color/white" />
+
+</LinearLayout>
