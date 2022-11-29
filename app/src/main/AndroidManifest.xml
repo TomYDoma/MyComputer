@@ -4,6 +4,7 @@
 
     <application
         android:allowBackup="true"
+
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
@@ -34,6 +35,35 @@
         <activity android:name=".program"
             android:label="program">
         </activity>
+        <activity android:name=".motherboards"
+            android:label="motherboards">
+        </activity>
+        <activity android:name=".processor"
+            android:label="processor">
+        </activity>
+        <activity android:name=".memory"
+            android:label="memory">
+        </activity>
+        <activity android:name=".power"
+            android:label="power">
+        </activity>
+        <activity android:name=".video"
+            android:label="video">
+        </activity>
+        <activity android:name=".cool"
+            android:label="cool">
+        </activity>
+        <activity android:name=".body"
+            android:label="body">
+        </activity>
+        <activity android:name=".hdd"
+            android:label="hdd">
+        </activity>
+        <activity android:name=".ssd"
+            android:label="sdd">
+        </activity>
     </application>
+
+
 
 </manifest>

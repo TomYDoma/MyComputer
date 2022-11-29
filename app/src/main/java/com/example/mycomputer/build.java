@@ -1,19 +1,34 @@
 package com.example.mycomputer;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.net.Uri;
 import android.os.Bundle;
+import android.webkit.WebView;
 import android.widget.ImageView;
+import android.widget.MediaController;
+import android.widget.VideoView;
 
 public class build extends Activity {
+    WebView webView;
+    
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.build);
+
+
+
+
+
         ImageView mimageView = findViewById(R.id.imageView);
         mimageView.setImageResource(R.drawable.pc);
+
         ImageView intelimageView = findViewById(R.id.imageView2);
         intelimageView.setImageResource(R.drawable.intel);
+
         ImageView amdimageView = findViewById(R.id.imageView3);
         amdimageView.setImageResource(R.drawable.amd);
 
