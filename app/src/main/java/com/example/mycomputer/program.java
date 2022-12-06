@@ -11,7 +11,7 @@ import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class program extends Activity {
+public class program extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 

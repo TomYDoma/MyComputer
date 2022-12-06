@@ -3,7 +3,9 @@ package com.example.mycomputer;
 import android.app.Activity;
 import android.os.Bundle;
 
-public class processor extends Activity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class processor extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

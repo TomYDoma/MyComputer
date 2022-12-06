@@ -27,41 +27,39 @@
                 android:value="" />
         </activity>
         <activity android:name=".components"
-            android:label="components">
+            android:label="Устройство ПК">
         </activity>
         <activity android:name=".build"
-            android:label="build">
+            android:label="Сборка ПК">
         </activity>
         <activity android:name=".program"
-            android:label="program">
+            android:label="Полезные ссылки на программы">
         </activity>
         <activity android:name=".motherboards"
-            android:label="motherboards">
+            android:label="Материнская плата">
         </activity>
         <activity android:name=".processor"
-            android:label="processor">
+            android:label="Процессор">
         </activity>
         <activity android:name=".memory"
-            android:label="memory">
+            android:label="Оперативная память">
         </activity>
         <activity android:name=".power"
-            android:label="power">
+            android:label="Блок питания">
         </activity>
         <activity android:name=".video"
-            android:label="video">
+            android:label="Видеокарта">
         </activity>
         <activity android:name=".cool"
-            android:label="cool">
+            android:label="Охлаждение">
         </activity>
         <activity android:name=".body"
-            android:label="body">
+            android:label="Корпус">
         </activity>
-        <activity android:name=".hdd"
-            android:label="hdd">
+        <activity android:name=".hddssd"
+            android:label="Хранение данных">
         </activity>
-        <activity android:name=".ssd"
-            android:label="sdd">
-        </activity>
+
     </application>
 
 

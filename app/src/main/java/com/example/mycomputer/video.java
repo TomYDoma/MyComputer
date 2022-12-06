@@ -3,7 +3,9 @@ package com.example.mycomputer;
 import android.app.Activity;
 import android.os.Bundle;
 
-public class video extends Activity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class video extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

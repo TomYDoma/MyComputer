@@ -18,11 +18,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical" >
 
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="match_parent"
-                android:layout_height="235dp"
-                tools:srcCompat="@color/purple_200" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -111,7 +106,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="500px"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/img" />
+                app:srcCompat="@drawable/motherboard" />
             <TextView
                 android:id="@+id/textView9"
                 android:paddingLeft="40px"
@@ -135,7 +130,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="500px"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/img" />
+                app:srcCompat="@drawable/cool" />
             <TextView
                 android:id="@+id/textView11"
                 android:paddingLeft="40px"
@@ -159,7 +154,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="500px"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/img" />
+                app:srcCompat="@drawable/video" />
             <TextView
                 android:id="@+id/textView13"
                 android:paddingLeft="40px"
@@ -183,7 +178,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="500px"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/img" />
+                app:srcCompat="@drawable/body" />
             <TextView
                 android:id="@+id/textView15"
                 android:paddingLeft="40px"
@@ -208,7 +203,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="500px"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/img" />
+                app:srcCompat="@drawable/hdd" />
             <TextView
                 android:id="@+id/textView17"
                 android:paddingLeft="40px"
@@ -231,7 +226,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="500px"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/img" />
+                app:srcCompat="@drawable/ozu" />
             <TextView
                 android:id="@+id/textView19"
                 android:paddingLeft="40px"
@@ -255,7 +250,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="500px"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/img" />
+                app:srcCompat="@drawable/bp" />
             <TextView
                 android:id="@+id/textView21"
                 android:paddingLeft="40px"
