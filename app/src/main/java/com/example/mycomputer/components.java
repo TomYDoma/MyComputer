@@ -12,7 +12,7 @@ public class components extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.components);
+        setContentView(R.layout.activity_components);
 
     }
 

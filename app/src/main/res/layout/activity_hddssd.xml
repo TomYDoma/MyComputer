@@ -24,7 +24,7 @@
                 android:layout_marginLeft="50px"
                 android:layout_marginRight="50px"
                 android:paddingLeft="50px"
-                android:text="Видеокарта"
+                android:text="Память ПК"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
 
@@ -37,7 +37,7 @@
                 android:layout_marginRight="50px"
                 android:paddingLeft="50px"
                 android:paddingRight="50px"
-                app:srcCompat="@drawable/bp1" />
+                app:srcCompat="@drawable/hddssd2" />
 
             <TextView
                 android:id="@+id/textViewContent1"
@@ -46,7 +46,7 @@
                 android:layout_margin="25px"
                 android:paddingLeft="25px"
                 android:paddingRight="25px"
-                android:text="@string/bp1"
+                android:text="@string/hddssd1"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
             <TextView
@@ -56,7 +56,7 @@
                 android:layout_marginLeft="50px"
                 android:layout_marginRight="50px"
                 android:paddingLeft="50px"
-                android:text="Подбираем БП по мощности"
+                android:text="Типы дисков"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
 
@@ -67,8 +67,10 @@
                 android:layout_margin="25px"
                 android:paddingLeft="25px"
                 android:paddingRight="25px"
-                android:text="@string/bp2"
+                android:text="@string/hddssd2"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+
 
             <TextView
                 android:id="@+id/textViewZagolovok2"
@@ -77,18 +79,10 @@
                 android:layout_marginLeft="50px"
                 android:layout_marginRight="50px"
                 android:paddingLeft="50px"
-                android:text="КПД"
+                android:text="Применение HDD, SSD и SSHD дисков"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
-            <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="wrap_content"
-                android:layout_height="200dp"
-                android:layout_marginLeft="50px"
-                android:layout_marginRight="50px"
-                android:paddingLeft="50px"
-                android:paddingRight="50px"
-                app:srcCompat="@drawable/bp3" />
+
             <TextView
                 android:id="@+id/textViewContent3"
                 android:layout_width="match_parent"
@@ -96,11 +90,8 @@
                 android:layout_margin="25px"
                 android:paddingLeft="25px"
                 android:paddingRight="25px"
-                android:text="@string/bp3"
+                android:text="@string/hddssd3"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
-
-
-
 
 
 

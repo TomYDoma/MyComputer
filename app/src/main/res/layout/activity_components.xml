@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="408dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewContent1"
+                    android:layout_width="329dp"
+                    android:layout_height="173dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:onClick="MotherboardOnClick"
+                    app:srcCompat="@drawable/motherboard" />
+
+                <TextView
+                    android:id="@+id/textViewContent1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginRight="30dp"
+                    android:text="@string/components_motherboard" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewContent2"
+                    android:layout_width="329dp"
+                    android:layout_height="173dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:onClick="ProcessorOnClick"
+                    app:srcCompat="@drawable/cp" />
+
+                <TextView
+                    android:id="@+id/textViewContent2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginRight="30dp"
+                    android:text="@string/components_cp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewContent3"
+                    android:layout_width="329dp"
+                    android:layout_height="173dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:onClick="MemoryOnClick"
+                    app:srcCompat="@drawable/ozu" />
+
+                <TextView
+                    android:id="@+id/textViewContent3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginRight="30dp"
+                    android:text="@string/components_ozu" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewContent4"
+                    android:layout_width="329dp"
+                    android:layout_height="173dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:onClick="PowerOnClick"
+                    app:srcCompat="@drawable/bp" />
+
+                <TextView
+                    android:id="@+id/textViewContent4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginRight="30dp"
+                    android:text="@string/components_bp" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewContent5"
+                    android:layout_width="329dp"
+                    android:layout_height="173dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:onClick="VideoOnClick"
+                    app:srcCompat="@drawable/video" />
+
+                <TextView
+                    android:id="@+id/textViewContent5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginRight="30dp"
+                    android:text="@string/components_video" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewContent6"
+                    android:layout_width="329dp"
+                    android:layout_height="173dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:onClick="CoolOnClick"
+                    app:srcCompat="@drawable/cool" />
+
+                <TextView
+                    android:id="@+id/textViewContent6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginRight="30dp"
+                    android:text="@string/components_cool" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewContent7"
+                    android:layout_width="329dp"
+                    android:layout_height="173dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:onClick="BodyOnClick"
+                    app:srcCompat="@drawable/body" />
+
+                <TextView
+                    android:id="@+id/textViewContent7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginRight="30dp"
+                    android:text="@string/components_body" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewContent8"
+                    android:layout_width="329dp"
+                    android:layout_height="173dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:onClick="hddssdOnClick"
+                    app:srcCompat="@drawable/hddssd1" />
+
+                <TextView
+                    android:id="@+id/textViewContent8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginRight="30dp"
+                    android:text="@string/components_memory" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

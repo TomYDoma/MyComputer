@@ -1,14 +1,10 @@
 package com.example.mycomputer;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.view.LayoutInflater;
 import android.view.View;
-import androidx.appcompat.app.ActionBar;
 
-import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class program extends AppCompatActivity {
@@ -17,7 +13,7 @@ public class program extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.program);
+        setContentView(R.layout.activity_program);
 
     }
     public void goToMO (View view) {

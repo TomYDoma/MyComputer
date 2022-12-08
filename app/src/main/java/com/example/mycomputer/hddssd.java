@@ -9,6 +9,6 @@ public class hddssd extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.hddssd);
+        setContentView(R.layout.activity_hddssd);
     }
 }
